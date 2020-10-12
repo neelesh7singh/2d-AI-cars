@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <meta charset="utf-8" />
+  </head>
+
+  <body class="container">
+    <div id="canvascontainer"></div>
+    <p>
+      <br />
+      Laps left: <span id="ll">3</span>
+      <br />
+      Generation: <span id="gen">1</span>
+      <br />
+      Alive: <span id="alive">100/100</span>
+      <br />
+      Game Speed :
+    </p>
+    <script src="./sketch.js"></script>
+    <script src="./nn.js"></script>
+    <script src="./genetic.js"></script>
+    <script src="./particle.js"></script>
+    <script src="./boundary.js"></script>
+    <script src="./ray.js"></script>
+  </body>
+</html>
