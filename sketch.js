@@ -96,7 +96,7 @@ function colorTrack() {
 function setup() {
     canvas = createCanvas(900, 700);
     canvas.parent('canvascontainer');
-    background(51, 93, 45);
+    background(121, 215, 15);
     tf.setBackend('cpu');
     buildTrack();
     colorTrack();
@@ -117,7 +117,7 @@ function setup() {
 function draw() {
 
 
-    background(129, 178, 20);
+    background(121, 215, 15);
     colorTrack();
 
     const cycles = speedSlider.value();
